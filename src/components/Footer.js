@@ -1,3 +1,4 @@
+// * all pages has this component*//
 import React from "react";
 const Footer = () => {
   return (
