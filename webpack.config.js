@@ -26,9 +26,9 @@ module.exports = {
   ],
   devServer: {
     static: {
-      directory: path.join(__dirname, "dist"),
+      directory: path.join(__dirname, "public"), // <-- CHANGE IS HERE
     },
     compress: true,
-    port: 3000,
+    port: 3000, // <-- ALSO recommended to fix your EADDRINUSE error
   },
 };
