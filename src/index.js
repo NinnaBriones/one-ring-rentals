@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom'; // Change this import
 
 import App from './App'; 
 
@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* Wrap App component */}
-    <BrowserRouter>
+    <HashRouter> {/* Change this component */}
       <App />
     </BrowserRouter>
   </React.StrictMode>
